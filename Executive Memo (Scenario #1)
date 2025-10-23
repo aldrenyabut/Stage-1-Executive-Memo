@@ -10,7 +10,7 @@
 ---
 
 ## Executive Summary (≤150 words)
-We expect 4.5 million euros from a European client in one year. Changes in the EUR/USD rate could affect how much we receive in dollars. To manage this risk, we are considering three options, forward contracts, currency options, or a money market hedge. The goal is to protect against losses while keeping some potential upside if the euro strengthens. We will build a simple model to compare these options and decide the best approach.
+We expect 4.5 million euros from a European client in one year. Changes in the EUR/USD rate could affect how much we receive in dollars. To manage this risk, we are considering three options, forward contracts, currency options, or a money market hedge. The goal is to protect against losses while keeping some potential upside if the euro strengthens. We will build a simple model to compare these options and decide the best approach. 
 
 ---
 
