@@ -1,36 +1,39 @@
-# [Stage 1: Executive Memo]
+# [Stage 1: Executive Memo (Scenario #1)]
 
 **Created by:** [Aldren Yabut]  
 **Updated by:** [Aldren Yabut]  
 **Date Created:** [October 22, 2025]  
-**Date Updated:** [October 22, 2025]  
+**Date Updated:** [October 23, 2025]  
 **Version:** [0.0]
 **LLM Used:"" [LLM] (optional if LLm used)
 
 ---
 
 ## Executive Summary (≤150 words)
-Our firm will receive 1,000,000 euros on October 27, 2025. Exchange rate fluctuations could reduce the USD value of this payment. We looked at three FX hedging strategies, forward contracts, futures, and options, using a spreadsheet model that includes USD proceeds and sensitivity to +/-5% EUR/USD changes. The forward contract provides predictable USD proceeds, is simple to implement, and requires no upfront cost, making it the recommended hedge to protect cash flow.
+We expect 4.5 million euros from a European client in one year. Changes in the EUR/USD rate could affect how much we receive in dollars. To manage this risk, we are considering three options, forward contracts, currency options, or a money market hedge. The goal is to protect against losses while keeping some potential upside if the euro strengthens. We will build a simple model to compare these options and decide the best approach.
 
 ---
 
 ## Background & Objectives
-Receiving a large payment in euros exposes us to FX risk. A weaker euro could reduce the USD amount we receive. Our main goal is to protect expected cash flows, minimize risk, and make the process simple and cost-effective.
+Right now, our euro receivable exposes us to exchange rate risk. If the euro weakens, the USD we receive will be lower than expected, which could impact revenue and planning. Our main goal is to protect the company from losses due to volatile. Another goal is to consider options that still allow some upside if the euro strengthens.
 
 ---
 
 ## Methods
-We built a spreadsheet model with:
-Inputs: 1,000,000 euros, payment date, spot rate, forward/futures rates, options.
-Calculations: USD proceeds for unhedged, forward, futures, and option scenarios.
-Sensitivity: +/-5% FX rate changes.
-Outputs: Comparison table and charts showing USD outcomes for each hedge.
+Forward Contract: Lock in a known rate today for the euro payment next year.
+
+Currency Options: Buy a put to guarantee a minimum USD amount; optionally sell a call to reduce cost.
+
+Money Market Hedge: Borrow USD now, convert to euros, and invest to match the payment timing.
+
+We will create a simple Excel model using the receivable amount, current spot and forward rates, interest rates, and option premiums. The model will calculate expected USD proceeds under different FX scenarios.
+
 
 ---
 
 ## Limitations & Next Steps
-Limitations: Forward/futures locks prevent benefiting from a stronger euro and options cost a premium and are more complex.
-Next Steps: Execute a forward contract for the October 27 payment, update the model with current rates, and monitor FX conditions to adjust if necessary. 
+Limitations: FX rates and interest rates are unpredictable, and hedging costs could change. Our model relies on assumptions that may not cover extreme market moves.
+Next Steps: Build the Excel model (Stage 2) to compare outcomes for each hedge. Then analyze results (Stage 3) to pick the approach that balances risk, cost, and flexibility
 
 ---
 
