@@ -21,9 +21,7 @@ Right now, our euro receivable exposes us to exchange rate risk. If the euro wea
 
 ## Methods
 Forward Contract: Lock in a known rate today for the euro payment next year.
-
 Currency Options: Buy a put to guarantee a minimum USD amount; optionally sell a call to reduce cost.
-
 Money Market Hedge: Borrow USD now, convert to euros, and invest to match the payment timing.
 
 We will create a simple Excel model using the receivable amount, current spot and forward rates, interest rates, and option premiums. The model will calculate expected USD proceeds under different FX scenarios.
