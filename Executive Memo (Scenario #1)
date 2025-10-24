@@ -28,13 +28,8 @@ Money Market Hedge: Borrow USD now, convert to euros, and invest to match the pa
 
 We will create a simple Excel model using the receivable amount, current spot and forward rates, interest rates, and option premiums. The model will calculate expected USD proceeds under different FX scenarios.
 
-
 ---
 
 ## Limitations & Next Steps
 Limitations: FX rates and interest rates are unpredictable, and hedging costs could change. Our model relies on assumptions that may not cover extreme market moves.
 Next Steps: Build the Excel model (Stage 2) to compare outcomes for each hedge. Then analyze results (Stage 3) to pick the approach that balances risk, cost, and flexibility
-
----
-
-## References
