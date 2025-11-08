@@ -1,4 +1,4 @@
-# [Spec Title] – Technical Specification Template
+#Technical Specification (Scenario 2)
 
 **Created by:** [Aldren Yabut]  
 **Updated by:** [Aldren Yabut]  
