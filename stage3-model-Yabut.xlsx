@@ -1,0 +1,11 @@
+Variable	Description	Unit	Value
+FC_AMT	Foreign-currency receivable	EUR	4500000
+S0	Current EURUSD spot rate	USD/EUR	1.1566
+F0	1-year forward rate	USD/EUR	1.089
+r_USD	USD 1-year interest rate	%	0.048
+r_EUR	EUR 1-year interest rate	%	0.035
+t	Time to maturity	Years	1
+K_put	EUR Put strike	USD/EUR	1.16
+K_call	EUR Call strike	USD/EUR	1.18
+Premium_put	Put premium	USD	0.017
+Premium_call	Call premium	USD	0.022
